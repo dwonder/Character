@@ -2,16 +2,28 @@
 
 // This maps animal names to their local image files.
 const animalImageMap = {
-  'Dog': 'assets/dog.png',
-  'Elephant': 'assets/elephant.png',
-  'Arctic Wolf': 'assets/artic.png',
+  // Updated to use 'dog1.png' as 'Dog.png' might be a different file
+  'Dog': 'assets/dog1.png', 
+  
+  // Note: This file is still a JPG in your repo
+  'Elephant': 'assets/Elephant.jpg', 
+  
+  // Updated to match the new filename 'artic (1).png'
+  'Arctic Wolf': 'assets/artic (1).png', 
+  
   'Dove': 'assets/dove.png',
   'Dolphin': 'assets/dolphin.png',
   'Eagle': 'assets/eagle.png',
+  
+  // Updated to use the lowercase 'f' version from your list
   'Fox': 'assets/Fox.png',
+  
   'Octopus': 'assets/octopus.png',
   'Cat': 'assets/cat.png',
-  'Sea Turtle': 'assets/sea-turtle.png',
+  
+  // Updated to match 'Sea Turtle.png'
+  'Sea Turtle': 'assets/Sea Turtle.png',
+  
   'Owl': 'assets/owl.png',
 };
 
