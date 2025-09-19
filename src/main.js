@@ -26,7 +26,6 @@ const animalImageMap = {
   
   'Owl': 'assets/owl.png',
 };
-
 // Mock function to simulate fetching data from Gemini.
 // This is used to avoid exposing your API key in client-side code.
 async function generateAnimalData() {
